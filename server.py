@@ -16,7 +16,7 @@ class ServerHandler(tornado.web.RequestHandler):
         details = {
                     'server': 'Tornadail',
                     'version': '0.1',
-                    'protocol': '0.1'}
+                    'protocol': 0.1}
         self.write(details)
         self.set_status(200)
 
